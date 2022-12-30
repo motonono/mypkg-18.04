@@ -1,2 +1,14 @@
-# mypkg
-mypkg no repository
+# mypkg カウント
+![test]
+
+talker.pyでカウントした数字をlistener.pyで表示します。
+
+## 使い方
+
+## 必要なソフトウェア
+
+## テスト環境
+
+## ライセンス
+このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されています。
+Ⓒ 2022 Souma Nomoto
