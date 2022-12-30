@@ -1,0 +1,2 @@
+# mypkg
+mypkg no repository
