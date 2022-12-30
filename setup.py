@@ -18,7 +18,7 @@ setup(
     zip_safe=True,
     maintainer='nomoto',
     maintainer_email='s21C1093JG@s.chibakoudai.jp',
-    description='パッケージの練習',
+    description='package for practice',
     license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
