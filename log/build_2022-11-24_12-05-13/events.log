@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000163] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000189] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000203] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.008633] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.098834] (-) TimerEvent: {}
+[0.135051] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.135174] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/nomoto/ros2_ws/src/person_msgs', '-DCMAKE_INSTALL_PREFIX=/home/nomoto/ros2_ws/src/install/person_msgs'], 'cwd': '/home/nomoto/ros2_ws/src/build/person_msgs', 'env': OrderedDict([('UIM_CANDWIN_PROG', 'uim-candwin-gtk'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nomoto'), ('LC_TIME', 'ja_JP.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('HOME', '/home/nomoto'), ('OLDPWD', '/home/nomoto/ros2_ws/src/person_msgs'), ('XIM', 'uim'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'ja_JP.UTF-8'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('COLCON_PREFIX_PATH', '/home/nomoto/ros2_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'nomoto'), ('GTK_IM_MODULE', 'uim'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('NAME', 'LAPTOP-HQDBHS8P'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LC_COLLATE', 'ja_JP.UTF-8'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/souman/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('DISPLAY', '172.20.192.1:0'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=uim'), ('AMENT_PREFIX_PATH', '/home/nomoto/ros2_ws/install/mypkg:/opt/ros/dashing'), ('LC_MESSAGES', 'ja_JP.UTF-8'), ('LC_NAME', 'ja_JP.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'uim'), ('PWD', '/home/nomoto/ros2_ws/src/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nomoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/nomoto/ros2_ws/install/mypkg:/opt/ros/dashing')]), 'shell': False}
+[0.199028] (-) TimerEvent: {}
+[0.201839] (person_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.266745] (person_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.286007] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299147] (-) TimerEvent: {}
+[0.352451] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.352770] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399289] (-) TimerEvent: {}
+[0.400511] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/mypkg', 'build', '--build-base', '/home/nomoto/ros2_ws/src/build/mypkg/build', 'install', '--prefix', '/home/nomoto/ros2_ws/src/install/mypkg', '--record', '/home/nomoto/ros2_ws/src/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/nomoto/ros2_ws/src/mypkg', 'env': {'UIM_CANDWIN_PROG': 'uim-candwin-gtk', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nomoto', 'LC_TIME': 'ja_JP.UTF-8', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'HOME': '/home/nomoto', 'OLDPWD': '/home/nomoto/ros2_ws/src/person_msgs', 'XIM': 'uim', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'ja_JP.UTF-8', 'WSL_DISTRO_NAME': 'Ubuntu-18.04', 'COLCON_PREFIX_PATH': '/home/nomoto/ros2_ws/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'nomoto', 'GTK_IM_MODULE': 'uim', 'WSL_INTEROP': '/run/WSL/9_interop', 'NAME': 'LAPTOP-HQDBHS8P', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LC_COLLATE': 'ja_JP.UTF-8', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/souman/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'DISPLAY': '172.20.192.1:0', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XMODIFIERS': '@im=uim', 'AMENT_PREFIX_PATH': '/home/nomoto/ros2_ws/install/mypkg:/opt/ros/dashing', 'LC_MESSAGES': 'ja_JP.UTF-8', 'LC_NAME': 'ja_JP.UTF-8', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'uim', 'PWD': '/home/nomoto/ros2_ws/src/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages:/home/nomoto/ros2_ws/install/mypkg/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.426073] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.429359] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.499534] (-) TimerEvent: {}
+[0.532587] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.533122] (mypkg) StdoutLine: {'line': b'creating ../build/mypkg/mypkg.egg-info\n'}
+[0.533477] (mypkg) StdoutLine: {'line': b'writing ../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.533610] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.533854] (mypkg) StdoutLine: {'line': b'writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.533929] (mypkg) StdoutLine: {'line': b'writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.533983] (mypkg) StdoutLine: {'line': b'writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.534173] (mypkg) StdoutLine: {'line': b"writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.555417] (mypkg) StdoutLine: {'line': b"reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.556156] (mypkg) StdoutLine: {'line': b"writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.556396] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.556685] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.556765] (mypkg) StdoutLine: {'line': b'creating /home/nomoto/ros2_ws/src/build/mypkg/build\n'}
+[0.556870] (mypkg) StdoutLine: {'line': b'creating /home/nomoto/ros2_ws/src/build/mypkg/build/lib\n'}
+[0.556915] (mypkg) StdoutLine: {'line': b'creating /home/nomoto/ros2_ws/src/build/mypkg/build/lib/mypkg\n'}
+[0.556963] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/nomoto/ros2_ws/src/build/mypkg/build/lib/mypkg\n'}
+[0.557167] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/nomoto/ros2_ws/src/build/mypkg/build/lib/mypkg\n'}
+[0.557620] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/nomoto/ros2_ws/src/build/mypkg/build/lib/mypkg\n'}
+[0.557766] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.558175] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.558880] (mypkg) StdoutLine: {'line': b'creating /home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[0.558984] (mypkg) StdoutLine: {'line': b'copying /home/nomoto/ros2_ws/src/build/mypkg/build/lib/mypkg/talker.py -> /home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[0.559210] (mypkg) StdoutLine: {'line': b'copying /home/nomoto/ros2_ws/src/build/mypkg/build/lib/mypkg/listener.py -> /home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[0.559289] (mypkg) StdoutLine: {'line': b'copying /home/nomoto/ros2_ws/src/build/mypkg/build/lib/mypkg/__init__.py -> /home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg\n'}
+[0.559505] (mypkg) StdoutLine: {'line': b'byte-compiling /home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc\n'}
+[0.559701] (mypkg) StdoutLine: {'line': b'byte-compiling /home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc\n'}
+[0.559853] (mypkg) StdoutLine: {'line': b'byte-compiling /home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc\n'}
+[0.559963] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.560360] (mypkg) StdoutLine: {'line': b'creating /home/nomoto/ros2_ws/src/install/mypkg/share/ament_index\n'}
+[0.560458] (mypkg) StdoutLine: {'line': b'creating /home/nomoto/ros2_ws/src/install/mypkg/share/ament_index/resource_index\n'}
+[0.560570] (mypkg) StdoutLine: {'line': b'creating /home/nomoto/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages\n'}
+[0.560694] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/nomoto/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages\n'}
+[0.560778] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/nomoto/ros2_ws/src/install/mypkg/share/mypkg\n'}
+[0.561074] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/nomoto/ros2_ws/src/install/mypkg/share/mypkg\n'}
+[0.561139] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.562166] (mypkg) StdoutLine: {'line': b'Copying ../build/mypkg/mypkg.egg-info to /home/nomoto/ros2_ws/src/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info\n'}
+[0.562581] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.574438] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/nomoto/ros2_ws/src/install/mypkg/lib/mypkg\n'}
+[0.574594] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/nomoto/ros2_ws/src/install/mypkg/lib/mypkg\n'}
+[0.574786] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/nomoto/ros2_ws/src/build/mypkg/install.log'\n"}
+[0.590015] (mypkg) CommandEnded: {'returncode': 0}
+[0.599200] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.599622] (-) TimerEvent: {}
+[0.657996] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.659248] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.699753] (-) TimerEvent: {}
+[0.732514] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.732922] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.799916] (-) TimerEvent: {}
+[0.808496] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.811030] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.900221] (-) TimerEvent: {}
+[1.000693] (-) TimerEvent: {}
+[1.101048] (-) TimerEvent: {}
+[1.121774] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.122865] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[1.139021] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.139150] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.201217] (-) TimerEvent: {}
+[1.250128] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[1.301445] (-) TimerEvent: {}
+[1.401749] (-) TimerEvent: {}
+[1.502158] (-) TimerEvent: {}
+[1.602492] (-) TimerEvent: {}
+[1.617282] (person_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[1.702613] (-) TimerEvent: {}
+[1.802919] (-) TimerEvent: {}
+[1.903211] (-) TimerEvent: {}
+[1.924795] (person_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[1.940557] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[2.003325] (-) TimerEvent: {}
+[2.103623] (-) TimerEvent: {}
+[2.204009] (-) TimerEvent: {}
+[2.304340] (-) TimerEvent: {}
+[2.404663] (-) TimerEvent: {}
+[2.503828] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[2.504936] (-) TimerEvent: {}
+[2.605338] (-) TimerEvent: {}
+[2.630257] (person_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.630424] (person_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[2.630475] (person_msgs) StderrLine: {'line': b'  person_msgs --arguments-file\n'}
+[2.630535] (person_msgs) StderrLine: {'line': b'  /home/nomoto/ros2_ws/src/build/person_msgs/rosidl_adapter__arguments__person_msgs.json\n'}
+[2.630575] (person_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[2.630613] (person_msgs) StderrLine: {'line': b'  /home/nomoto/ros2_ws/src/build/person_msgs/rosidl_adapter/person_msgs\n'}
+[2.630655] (person_msgs) StderrLine: {'line': b'  --output-file\n'}
+[2.630697] (person_msgs) StderrLine: {'line': b'  /home/nomoto/ros2_ws/src/build/person_msgs/rosidl_adapter/person_msgs.idls)\n'}
+[2.630739] (person_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.630782] (person_msgs) StderrLine: {'line': b'\n'}
+[2.630827] (person_msgs) StderrLine: {'line': b"  Error processing 'unit8 age' of 'person_msgs/Person': 'unit8'\n"}
+[2.630870] (person_msgs) StderrLine: {'line': b'\n'}
+[2.631059] (person_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.631106] (person_msgs) StderrLine: {'line': b'\n'}
+[2.631145] (person_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main\n'}
+[2.631183] (person_msgs) StderrLine: {'line': b'      "__main__", mod_spec)\n'}
+[2.631221] (person_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 85, in _run_code\n'}
+[2.631259] (person_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.631296] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.631334] (person_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.631371] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main\n'}
+[2.631408] (person_msgs) StderrLine: {'line': b'      pathlib.Path(relative_path), output_dir)\n'}
+[2.631445] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl\n'}
+[2.631483] (person_msgs) StderrLine: {'line': b"      package_dir, package_name, interface_file, output_dir / 'msg')\n"}
+[2.631520] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[2.631557] (person_msgs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[2.631595] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 504, in parse_message_string\n'}
+[2.631631] (person_msgs) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[2.631668] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 273, in __init__\n'}
+[2.631704] (person_msgs) StderrLine: {'line': b'      context_package_name=context_package_name)\n'}
+[2.631740] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 202, in __init__\n'}
+[2.631777] (person_msgs) StderrLine: {'line': b'      raise InvalidResourceName(self.type)\n'}
+[2.631816] (person_msgs) StderrLine: {'line': b'\n'}
+[2.631852] (person_msgs) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName: unit8\n'}
+[2.631888] (person_msgs) StderrLine: {'line': b'\n'}
+[2.631924] (person_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.631960] (person_msgs) StderrLine: {'line': b'  /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.631998] (person_msgs) StderrLine: {'line': b'  CMakeLists.txt:21 (rosidl_generate_interfaces)\n'}
+[2.632040] (person_msgs) StderrLine: {'line': b'\n'}
+[2.632077] (person_msgs) StderrLine: {'line': b'\n'}
+[2.632114] (person_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.632156] (person_msgs) StdoutLine: {'line': b'See also "/home/nomoto/ros2_ws/src/build/person_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.633493] (person_msgs) CommandEnded: {'returncode': 1}
+[2.646278] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 1}
+[2.657485] (-) EventReactorShutdown: {}

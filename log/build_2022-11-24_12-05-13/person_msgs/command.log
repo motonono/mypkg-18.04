@@ -1,0 +1,2 @@
+Invoking command in '/home/nomoto/ros2_ws/src/build/person_msgs': CMAKE_PREFIX_PATH=/home/nomoto/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake /home/nomoto/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/nomoto/ros2_ws/src/install/person_msgs
+Invoked command in '/home/nomoto/ros2_ws/src/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=/home/nomoto/ros2_ws/install/mypkg:/opt/ros/dashing /usr/bin/cmake /home/nomoto/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/nomoto/ros2_ws/src/install/person_msgs
